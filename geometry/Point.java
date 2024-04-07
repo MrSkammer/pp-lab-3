@@ -1,3 +1,5 @@
+package geometry;
+
 class Point {
     private double x;
     private double y;
@@ -21,15 +23,6 @@ class Point {
 
     public void setY(double y) {
         this.y = y;
-    }
-
-    public static void main(String[] args) {
-        
-        Point point = new Point(3.5, 2.0);
-
-        System.out.println("Współrzędne punktu:");
-        System.out.println("x = " + point.getX());
-        System.out.println("y = " + point.getY());
     }
 }
 
