@@ -9,6 +9,7 @@ public class Main {
         //circles[2] = new ColoredCircle(new Point(3.0, 3.0), 5.0, "green");
 
         Rectangle rectangle = new Rectangle(5.0, 3.0);
+        Square square = new Square(4.0);
 
         //for (Circle circle : circles) {
             //double area = circle.calculateArea();
@@ -27,6 +28,12 @@ public class Main {
         System.out.println("Area of the Rectangle: " + rectangle.calculateArea());
         System.out.println("Circumference of the Rectangle: " + rectangle.calculatePerimeter());
 
+        System.out.println("");
 
+        System.out.println("Properties of the Square:");
+        System.out.println("Lenght: " + square.getLength());
+        System.out.println("Width: " + square.getWidth());
+        System.out.println("Area of the Rectangle: " + square.calculateArea());
+        System.out.println("Circumference of the Rectangle: " + square.calculatePerimeter());
     }
 }
