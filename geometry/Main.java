@@ -10,11 +10,11 @@ public class Main {
 
         for (Circle circle : circles) {
             double area = circle.calculateArea();
-            System.out.println("Pole koła: " + area);
+            System.out.println("Area of the circle: " + area);
 
             if (circle instanceof ColoredCircle) {
                 String color = ((ColoredCircle) circle).getColor();
-                System.out.println("Kolor koła: " + color);
+                System.out.println("Color of the circle: " + color);
             }
         }
     }
